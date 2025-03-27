@@ -6,18 +6,18 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "Attacker__CallFailed",
+				"type": "error"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_kingContract",
+						"internalType": "address",
+						"name": "_kingAddr",
 						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
 				"name": "attack",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -37,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/9_king.sol": "Attack"
+			"contracts/9_king.sol": "Attacker"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -52,11 +52,11 @@
 	},
 	"sources": {
 		"contracts/9_king.sol": {
-			"keccak256": "0x30649dbe43edfd53f124985ab22579d4ee3f55b054a2f2d9af3d213c2460bb1c",
+			"keccak256": "0xb14bad7e89935de7a05bf14fbb9ef39dfa8dc400b073b1192b4fb780deb56917",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a736ae85137c4ab0388421ddae642b002a260d708a9ebd630ee19ecc924d0cf2",
-				"dweb:/ipfs/QmdPAVz1yA3bgeVwj5kbrk8XBWYmDBsS6tQs7HHktEwdtE"
+				"bzz-raw://7715376a4cd0fc1906f016908d51bc4bb4a2d287a0170d95f54a238ba168c1b2",
+				"dweb:/ipfs/QmZJJHr7Z8teYERT6MbgYm5niAoXA5FABPxVL9Nx5jixVL"
 			]
 		}
 	},
