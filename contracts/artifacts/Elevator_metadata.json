@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "floor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_floor",
+						"type": "uint256"
+					}
+				],
+				"name": "goTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "top",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/11_ building.sol": "Elevator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/11_ building.sol": {
+			"keccak256": "0xf8b051385bb04b33ea852cfe010e0ba11bcb96f6b07b724debb93d173a0929fd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2ba5091ecfb3339622bf730a26af069f8bebcd57f868cf3ca38e7276da6aa603",
+				"dweb:/ipfs/Qmc8oj2ir7XS9KqKTe84aJvXqjmqjZFJprNC95w4L6bAYK"
+			]
+		}
+	},
+	"version": 1
+}
