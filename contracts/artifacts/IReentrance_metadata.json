@@ -8,44 +8,28 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_targetAddr",
+						"internalType": "address",
+						"name": "_to",
 						"type": "address"
 					}
 				],
-				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "attack",
+				"name": "donate",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -61,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/10_reentrancy.sol": "Attacker"
+			"contracts/10_reentrancy.sol": "IReentrance"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

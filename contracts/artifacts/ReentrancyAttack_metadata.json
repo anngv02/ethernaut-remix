@@ -8,12 +8,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_targetAddr",
+						"internalType": "address",
+						"name": "_target",
 						"type": "address"
 					}
 				],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
@@ -21,6 +21,26 @@
 				"name": "attack",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "attackAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "collect",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -38,9 +58,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "target",
+				"outputs": [
+					{
+						"internalType": "contract IReentrance",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -61,7 +87,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/10_reentrancy.sol": "Attacker"
+			"contracts/10_reentrancy.sol": "ReentrancyAttack"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -76,11 +102,11 @@
 	},
 	"sources": {
 		"contracts/10_reentrancy.sol": {
-			"keccak256": "0x88178aa5dfd08996afaf6493d18f1580b5fd3f7bfc6a45772243b830559026c1",
-			"license": "GPL-3.0",
+			"keccak256": "0x1c96e521e2d9bb731ec744d2ec294a9ab43dee719d4aaeebeec3cdcd2f5bf136",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://1b543508063fa6337e8d8c49c4003e0097b88528730ae5286c85d56ef9ef40a2",
-				"dweb:/ipfs/QmYsCYJ4beuyXKAxGHVPSRuiSc57CZHN1ogTKbpwW2ruvA"
+				"bzz-raw://be019b7c62f2156d2713fbc0c17405809268595cf2201f47240b06782fd67caf",
+				"dweb:/ipfs/Qmbm43VfGCUYj1xA9kBezsD9S2aVgV63PwUwqe9R8ayhm6"
 			]
 		}
 	},
