@@ -44,6 +44,9 @@ An attacker can call the function in the same block and calculate the result bef
     ```
 
 2. **Deploy the Attack Contract:**
+    - Remember that: Before you deploy the contract in Remix you need to change the environment to Injected Provider - (Metamask). 
+    
+    ![alt text](image.png)
     - Deploy the `Attack` contract in Remix, providing the address of the `CoinFlip` contract (instance address) as the constructor argument.
 
 3. **Verify the CoinFlip Contract:**
