@@ -1,4 +1,4 @@
-# Ethernaut Solutions (Levels 0 to 20)
+# ETHERNAUT GAME (Levels 0 to 20)
 
 Explore solutions for Ethernaut levels 0 to 20. If you find them helpful, consider giving the repository a star to show your support!
 # REMIX DEFAULT WORKSPACE
